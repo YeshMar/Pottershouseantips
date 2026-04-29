@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Potter's House Antipolo</title>
+    <link rel="stylesheet" href="Churchweb.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo-container">
+        <img src="ChurchLogo.png" alt="Church Logo" class="nav-logo">
+        <span class="church-name">The Potter's House Christian Fellowship Church | Antipolo City</span>
+    </div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header id="home" class="hero">
+    <h1 id="Title">Welcome to Our Church</h1>
+    <p>Changing Lives | Making Disciples | Reaching the World</p>
+</header>
+
+<section id="schedule" style="background: var(--light-gray);">
+    <h2>Sunday Service Schedule</h2>
+    <div class="card-grid">
+        <div class="card"><h3>Adult Bible Class</h3><p>8:30 AM - 9:00 AM</p></div>
+        <div class="card"><h3>Sunday Morning Service</h3><p>9:00 AM - 10:30 AM</p></div>
+        <div class="card"><h3>Children's Sunday School</h3><p>9:00 AM - 10:30 AM</p></div>
+        <div class="card"><h3>Sunday Evening Service</h3><p>5:00 PM - 6:30 PM</p></div>
+    </div>
+</section>
+
+<section id="schedule2" style="background: var(--light-gray);">
+    <h2>Midweek Service Schedule</h2>
+    <div class="card-grid2">
+        <div class="card2"><h3>Prayer</h3><p>6:00 PM - 7:00 PM</p></div>
+        <div class="card2"><h3>Thursday Service</h3><p>7:00 PM - 8:30 PM</p></div>
+    </div>
+</section>
+
+<section id="schedule3" style="background: var(--light-gray);">
+    <h2>Regular Activities</h2>
+    <div class="card-grid3">
+        <div class="card3"><h3>Weekdays Morning Prayer</h3><p>Mon to Fri | 7:00 AM - 8:00 AM</p></div>
+        <div class="card3"><h3>Weekends Morning Prayer</h3><p>Saturday | 8:00 AM - 9:00 AM</p></div>
+        <div class="card3"><h3>Street Preaching</h3><p>Tuseday | 5:00 PM</p></div>
+        <div class="card3"><h3>Childrens Ministry</h3><p>Saturday | 9:00 AM</p></div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-wrapper">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> Ph2B Near Escala, Blk 20 Lot 9 Ph2B Brgy, Antipolo, 1870 Rizal, Philippines</p>
+            <p><strong>Phone:</strong> +63 993 541 3281</p>
+            <p><strong>Email:</strong> phccantipolo@gmail.com</p>
+        </div>
+        <img src="FullLogo.webp" alt="Church Logo" class="contact-logo">
+    </div>
+</section>
+
+<section  style="background: var(--light-gray);">
+    <div style="margin-top: -20px;">
+        <h2>Find Us</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d735.9332840754927!2d121.18840016759539!3d14.619362021538388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bf0033223541%3A0x57c23f9feef0cb46!2sThe%20Potter&#39;s%20House%20Christian%20Center%20Lower%20Antipolo!5e1!3m2!1sen!2sph!4v1777444061633!5m2!1sen!2sph"
+        width="100%"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 PHCCAntipolo | <a href="https://www.facebook.com/profile.php?id=61588493516877&sk=about">Visit us on Facebook</a></p>
+</footer>
+
+<script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
